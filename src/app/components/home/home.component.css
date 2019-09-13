@@ -1,9 +1,122 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 180px;
+  text-align: center;
+}
 
+.main {
+  overflow: hidden;
+}
 .brand-name {
   height: 625px;
   width: 100%;
-  background-image: url('https://2.bp.blogspot.com/-BR2vy0vwC_o/W-60mTttG4I/AAAAAAAAAIw/r0SCy01_-X4BaREz6em_AFMzQDTMUciFQCLcBGAs/s1600/DSC_0289-02.jpeg');
+  background-image: url('https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/05/holiday2013_front.jpg');
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
 }
+.brand_name_welcome {
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-weight: normal;
+    font-size: 100px;
+      color: rgb(197, 157, 95);
+ 
+  }
+
+  .brand_name_contain_name {
+      letter-spacing: 9.4px;
+      color: white;
+      font-weight: 900;
+      font-size: 47px;
+  }
+
+  .line {
+     border-bottom: 1px solid whitesmoke;
+     width: 230px;
+     position: relative;
+     left: 95px;
+   }
+
+   .brand_name_contain_name2 {
+      letter-spacing: 4.85px;
+      color: white;
+      font-weight: 400;
+      font-size: 15px;
+  }
+
+  .exbtn button {
+   font-size: 12px;
+   letter-spacing: 2.4px;
+   margin-top: 5px;
+  }
+
+  .article_contain {
+   margin-top: 50px;
+  }
+
+  .story {
+    text-align: center;
+  }
+
+  .story_1 {
+     font-family: 'Dancing Script', cursive;
+     color: rgb(197, 157, 95);
+     font-size: 100px;
+     font-weight: 400;
+   }
+
+   .story_2 {
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 47px;
+     font-weight: 900;
+     letter-spacing: 9.4px;
+   }
+
+   .story_3 {
+     font-family: cabin;
+     font-size: 16px;
+     font-weight: 400;
+   }
+   .story_4 {
+     margin-top: 20px;
+   }
+   .story_4 a{
+     cursor: pointer;
+     color: rgb(197, 157, 95);
+     font-family: cabin;
+     font-size: 15px;
+   }
+
+   .story_5 {
+     color: rgb(197, 157, 95);
+     border-bottom: 2px solid rgb(197, 157, 95);
+     width: 83px;
+     align-self: center;
+     margin-left: 285px;
+   }
+
+   .three_img {
+  background-image: url('https://cdn.demos.pixelgrade.com/wp-content/uploads/sites/5/2014/05/frontpage-menu.jpg');
+    width: 100%;
+    height: 360px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 50px;
+   }
+
+   .three_img_block_text_1 {
+     color: rgb(197, 157, 95);
+     font-size: 100px;
+     font-family: 'Dancing Script', cursive;
+     
+   }
+
+   .three_img_block_text_2 {
+     font-size: 47px;
+     color: white;
+     font-family: 'Roboto, "Helvetica Neue", sans-serif';
+     font-weight: 900;
+     letter-spacing: 9.4px;
+   }

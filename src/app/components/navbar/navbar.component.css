@@ -1,3 +1,13 @@
-.navbar {
-  background: transparent;
+
+.navbar-light .navbar-nav .nav-link {
+   color: white;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  text-decoration: underline;
+  letter-spacing: 4.7px;
+  margin-top: 0px;
 }
